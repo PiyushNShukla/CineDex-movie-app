@@ -41,3 +41,5 @@ npm run build
 
 🛡️ Environment Variables
 .env is not tracked by Git. Use .env.example to create your own.
+
+## Link of Depolyoed App: https://cine-dex-movie-app.vercel.app/
