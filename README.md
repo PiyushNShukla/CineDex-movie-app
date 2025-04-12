@@ -22,24 +22,25 @@ This is a React + Vite project that fetches and displays movies using [The Movie
 2. Run `npm install`
 3. Create a `.env` file in the root folder:
 
-```env
-VITE_TMDB_API_KEY=your_tmdb_api_key_here
+
+```VITE_TMDB_API_KEY=your_tmdb_api_key_here ```
 
 Create a .env file in the root with:
 
 env
 
-VITE_TMDB_API_KEY=your_tmdb_api_key
+```VITE_TMDB_API_KEY=your_tmdb_api_key```
 
 Run the app:
 
-npm run dev
+```npm run dev ```
 
 📦 Build for production
 
-npm run build
+``` npm run build ```
 
 🛡️ Environment Variables
 .env is not tracked by Git. Use .env.example to create your own.
 
-## Link of Depolyoed App: https://cine-dex-movie-app.vercel.app/
+
+## Link of the deployed App : https://cine-dex-movie-app.vercel.app/ 
