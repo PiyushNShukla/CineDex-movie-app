@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import {useEffect, useState, version } from 'react'
 import React from 'react'
 import { useDebounce } from 'react-use'
@@ -85,6 +86,7 @@ const App=()=> {
 
   return(
     <main>
+      <SpeedInsights />
       <div className="pattern" />
     <div className="wrapper">
       <header>
